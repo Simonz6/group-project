@@ -109,7 +109,7 @@
             <string>主界面</string>
            </property>
            <property name="icon">
-            <iconset>
+            <iconset resource="main.qrc">
              <normaloff>:/image/main_main.png</normaloff>:/image/main_main.png</iconset>
            </property>
            <property name="toolButtonStyle">
@@ -129,7 +129,7 @@
             <string>系统设置</string>
            </property>
            <property name="icon">
-            <iconset>
+            <iconset resource="main.qrc">
              <normaloff>:/image/main_config.png</normaloff>:/image/main_config.png</iconset>
            </property>
            <property name="toolButtonStyle">
@@ -149,7 +149,7 @@
             <string>牌况查询</string>
            </property>
            <property name="icon">
-            <iconset>
+            <iconset resource="main.qrc">
              <normaloff>:/image/main_data.png</normaloff>:/image/main_data.png</iconset>
            </property>
            <property name="checked">
@@ -175,7 +175,7 @@
             <string>使用帮助</string>
            </property>
            <property name="icon">
-            <iconset>
+            <iconset resource="main.qrc">
              <normaloff>:/image/main_person.png</normaloff>:/image/main_person.png</iconset>
            </property>
            <property name="toolButtonStyle">
@@ -198,7 +198,7 @@
             <string>用户退出</string>
            </property>
            <property name="icon">
-            <iconset>
+            <iconset resource="main.qrc">
              <normaloff>:/image/main_exit.png</normaloff>:/image/main_exit.png</iconset>
            </property>
            <property name="toolButtonStyle">
@@ -343,7 +343,7 @@
       <string notr="true"/>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page1">
       <layout class="QHBoxLayout" name="horizontalLayout">
@@ -5247,7 +5247,7 @@
             </rect>
            </property>
            <property name="text">
-            <string>测试</string>
+            <string>开始游戏</string>
            </property>
           </widget>
           <widget class="QLabel" name="drawWestNumber14">
@@ -5872,7 +5872,7 @@
             </rect>
            </property>
            <property name="text">
-            <string>开始游戏</string>
+            <string>测试</string>
            </property>
           </widget>
           <widget class="QPushButton" name="endGameButton">
@@ -11634,6 +11634,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
  <connections/>
 </ui>
