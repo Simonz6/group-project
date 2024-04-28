@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 13.0.0, 2024-04-28T20:13:29. -->
+<!-- Written by QtCreator 13.0.0, 2024-04-28T21:45:46. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -242,8 +242,8 @@
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">majiang2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/code/majiang/majiang.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/code/majiang/majiang.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/test/majiang/majiang.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/test/majiang/majiang.pro</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
